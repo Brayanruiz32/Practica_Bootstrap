@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 class="text-center">Formularios</h1>
+    <hr>
+    <form class="border rounded m-3">
+
+        <div class="m-3 row">
+            <label for="nombre" class="col-sm-2 col-form-label">Nombre</label>
+            <div class="col-sm-10">
+                <input id="nombre" class="form-control" type="text">
+            </div>
+        </div>
+        <div class="m-3 row">
+            <label for="apellido" class="col-sm-2 col-form-label">Apellido</label>
+            <div class="col-sm-10">
+                <input id="apellido" class="form-control" type="text">
+            </div>
+        </div>
+    </form>
+    <hr>
+    <form class="row justify-content-center">
+        <div class="col-auto">
+            <input type="text" class="form-control" id="nombre"/>
+        </div>
+        <div class="col-auto">
+            <input type="text" class="form-control" id="apellido"/>
+        </div>
+        <div class="col-auto">
+            <button class="btn btn-danger">Presioname</button>
+        </div>
+    </form>
+    <!--Lista de opciones-->
+    <hr>
+    <div class="m-3 border p-3 row">
+        <label for="exampleDatalist" class="col-2">Selecciona una opcion</label>
+        <div class="col-10">
+            <input class="form-control  " list="datalistOptions" id="exampleDatalist" />
+            <datalist id="datalistOptions">
+                <option value="aea">
+                <option value="ia">
+                <option value="ya">
+                <option value="ok">
+            </datalist>
+        </div>
+    </div>
+    <hr>
+    <!--Ejemplo de la etiqueta select-->
+    <select class="form-select">
+        <option selected>Open this select menu</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+    </select>
+    <!--Checks & Radios-->
+
+
+ 
+    <!--Scripts de BootStrap-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
