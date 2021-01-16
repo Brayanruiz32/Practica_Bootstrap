@@ -59,7 +59,67 @@
     <p class="user-select-none">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam fugiat dicta iusto aperiam id, vitae, itaque ut distinctio rem saepe eos quod facere totam amet. Aspernatur perferendis error aliquam id!</p>
     <p class="user-select-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus animi, eaque tempore adipisci asperiores explicabo corporis beatae illum blanditiis sint fugiat atque id ducimus distinctio ullam repellat reprehenderit neque ad.</p>
     <h2>Overflow</h2>
-    <div class="overflow-hidden"></div>
+    <div class="row">
+        <div class="overflow-auto col-2" style="height: 100px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita possimus itaque mollitia laboriosam neque culpa vitae officia odit voluptatum labore sequi a harum numquam pariatur nulla, alias repellat placeat atque!</div>
+        <div class="overflow-hidden col-3"style="height: 100px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, ipsum sapiente ratione laudantium deserunt perspiciatis quos amet mollitia cupiditate nostrum iure exercitationem dolore placeat aperiam magni vero adipisci nulla quasi.</div>
+        <div class="overflow-scroll col-3"style="height: 100px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est ea sapiente, delectus qui nihil quidem quod laborum possimus nostrum cumque cum, corrupti recusandae molestias ullam ab id optio magnam? Officia!</div>
+        <div class="overflow-visible col-3"style="height: 100px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus magni, architecto saepe odio tenetur dolore necessitatibus eligendi fugiat maiores! Quod perspiciatis, at illum eaque numquam dolorum pariatur dignissimos obcaecati dolorem!</div>    
+    </div>
+    <h2>Position</h2>
+    <div>
+        <div style="height:50px; width: 50px;" class="bg-success position-absolute start-50"></div>
+        <div style="height:50px; width: 50px;" class="bg-primary position-static start-50"></div>
+        <div style="height:50px; width: 100px;" class="bg-secondary position-relative start-50"></div>
+        <div style="height:50px; width: 200px;" class="bg-info position-fixed bottom-50"></div>
+    </div>
+    <h2>Shadows</h2>
+    <div class="row p-1">
+        <div class="col-4 shadow-none">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem magnam maxime voluptatibus ex. Incidunt dolor nisi tempore numquam corporis consectetur exercitationem aspernatur non, laboriosam magnam officia quibusdam dicta mollitia deserunt!
+        </div>
+        <div class="col-4 shadow-sm">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta earum voluptatibus distinctio tempore ipsa? Amet, omnis voluptate asperiores officiis, ea unde sunt nobis vero doloribus delectus tempora, magnam voluptatum atque!
+        </div>
+        <div class="col-4 mb-3 shadow">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis beatae dicta, iusto cum voluptate necessitatibus est architecto error, corporis id consequatur alias illo, unde non? Molestiae maxime recusandae perferendis placeat.
+        </div>
+        <div class="col-4 shadow-lg">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid non placeat sed optio consequuntur id libero quibusdam autem porro molestiae, rerum ea vitae earum dicta ipsa, obcaecati fugit sequi unde.
+        </div>
+    </div>
+    <h2>Badge</h2>
+    <div class="bg-danger rounded text-wrap badge" style="width: 100px;">
+        Lorem ipsume gfgffefefe
+    </div>
+    <div class="bg-success rounded badge text-nowrap" style="width: 100px;">
+        lorem jfknkvnkrklgkrelgz
+    </div>
+    <div style="width: 300px;" class="text-break">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus id, est reprehenderit repellendus accusantium ullam earum, molestiae soluta cumque saepe necessitatibus minus optio excepturi odio voluptate error enim quasi velit.
+    </div>
+    <div class="border border-success " style="width: 250px; height: 250px;">
+        <table style="height: 100px;" class="visible">
+            <tr>
+                <td class="align-baseline">xd</td>
+                <td class="align-top">dx</td>
+                <td class="align-middle">aea</td>
+                <td class="align-bottom">ia</td>
+                <td class="align-text-top">ok</td>
+                <td class="align-text-bottom">gaaa</td>
+            </tr>
+        </table>
+    </div>
+    <h2>Uso del gap </h2>
+    <div class="row gap-3 gy-2 border border-primary">
+        <div class="col-4 border border-danger rounded">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex in quas sed reiciendis voluptatum facere excepturi cum nesciunt possimus. Accusantium exercitationem possimus, cupiditate porro nisi ipsam voluptatum corporis nesciunt dignissimos.
+        </div> 
+        <div class="col-4 border border-success rounded">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia commodi pariatur nihil minima sunt hic eum similique perferendis quo ipsum maiores veniam, laboriosam eligendi placeat modi, quos fugit! Voluptas, voluptates?
+        </div>
+    </div>
+
+
     <!--Scripts de BootStrap-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
         integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous">
