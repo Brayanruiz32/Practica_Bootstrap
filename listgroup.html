@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>List group</h1>
+    <ul class="list-group">
+        <li class="list-group-item active">Cras justo odio</li>
+        <li class="list-group-item">Dapibus ac facilisis in</li>
+        <li class="list-group-item">Morbi leo risus</li>
+        <li class="list-group-item">Porta ac consectetur ac</li>
+        <li class="list-group-item">Vestibulum at eros</li>
+      </ul>
+    <h2>Actionable link with hover</h2>
+    <div class="list-group">
+        <a href="#" class="list-group-item list-group-item-action">link1</a>
+        <a href="#" class="list-group-item list-group-item-action">link2</a>
+        <a href="#" class="list-group-item list-group-item-action">link3</a>
+    </div>
+    <h2>List group flush</h2>
+    <div class="list-group list-group-flush">
+        <a href="#" class="list-group-item list-group-item-action">link1</a>
+        <a href="#" class="list-group-item list-group-item-action">link2</a>
+        <a href="#" class="list-group-item list-group-item-action">link3</a>
+    </div>
+    <h2>List group with badges</h2>
+    <div class="list-group">
+        <a href="#" class="list-group-item list-group-item-success list-group-item-action">link1
+            <span class="badge bg-success btn">4</span>
+        </a>
+        <a href="#" class="list-group-item list-group-item-primary list-group-item-action">link2
+            <span class="badge bg-primary btn">3</span>
+        </a>
+        <a href="#" class="list-group-item list-group-item-secondary list-group-item-action">link3
+            <span class="badge btn-secondary btn rounded">5</span>
+        </a>
+    </div>
+    <h2>List in squares</h2>
+    <div class="list-group">
+        <a href="#" class="list-group-item list-group-item-action list-group-item-success">
+            <div class="d-flex w-100">
+                <h5 class="flex-grow-1">Primer ejemplo</h5>
+                <small>Hace tres dias</small>
+            </div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi amet explicabo officiis iste obcaecati nemo necessitatibus. Culpa asperiores mollitia pariatur quidem excepturi at fugit necessitatibus! Aperiam quisquam autem aliquam assumenda.</p>
+            <small>Hace tres dias</small>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action list-group-item-primary">
+            <div class="d-flex w-100">
+                <h5 class="flex-grow-1">Segundo ejemplo</h5>
+                <small>Hace cuatro dias</small>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum accusamus deleniti consequatur natus consectetur dolorum repellendus quod perferendis consequuntur? Minus natus nulla facilis laboriosam, modi laudantium incidunt ad hic possimus.</p>
+            <small>Notified by: @Brayanruiz</small>
+        </a>
+        <a href="#" class="list-group-item-active list-group-item list-group-item-danger">
+            <div class="d-flex w-100">
+                <h5 class="flex-grow-1">Tercer ejemplo</h5>
+                <small>Hace 5 dias</small>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem optio vel esse consequuntur explicabo nobis voluptates, sunt dolore veritatis, non enim sint magnam molestias architecto modi sapiente adipisci et officiis?</p>
+            <small>Hace 5 dias</small>
+        </a>
+    </div>
+    <h2>List with checkbox</h2>
+    <ul class="list-group">
+        <li class="list-group-item">
+            <input class="form-check-input" type="checkbox">
+            Masculino 
+        </li>
+        <li class="list-group-item">
+            <input class="form-check-input" type="checkbox">
+            Femenino
+        </li>
+        <li class="list-group-item">
+            <input type="form-check-input" type="checkbox">
+        </li>
+    </ul>
+    <h2>List group with JavaScript</h2>
+    <div class="row">
+        <div class="col-4">
+          <div class="list-group" id="list-tab" role="tablist">
+            <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="home">Home</a>
+            <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Profile</a>
+            <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Messages</a>
+            <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Settings</a>
+          </div>
+        </div>
+        <div class="col-8">
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">xd</div>
+            <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">aea</div>
+            <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">ok</div>
+            <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">como?</div>
+          </div>
+        </div>
+      </div>
+      
+    <!--Scripts de BootStrap-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
